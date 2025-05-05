@@ -4,9 +4,11 @@ Provides a simple framework to easily create sub-skins (completed with Chameleon
 The extension includes additional Chameleon sub-skins/themes.
 
 
-1) Install extensions Bootstrap and Chameleon
+1) Download and place the files in a directory called ChameleonThemes in your extensions/ folder.
 
-2) Add to LocalSettings.php:
+2) Install extensions Bootstrap and Chameleon
+
+3) Add to LocalSettings.php:
 
 ```
 wfLoadExtension( 'Bootstrap' );
@@ -19,7 +21,7 @@ $wgChameleonThemesTheme = 'familysearch';
 ```
 
 
-3) Add the following in MediaWiki:Secondary-menu
+4) Add the following in MediaWiki:Secondary-menu
 
 ```
 * Research Wiki
